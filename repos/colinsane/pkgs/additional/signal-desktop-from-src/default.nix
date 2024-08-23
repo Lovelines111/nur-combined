@@ -150,7 +150,7 @@ let
     repo = "Signal-Desktop";
     leaveDotGit = true;  # signal calculates the release date via `git`
     rev = "v${version}";
-    hash = "sha256-5wv8xH3jwfb+I6a0/N7ZHQKNigBjFHHNX9rQDCMoHfY=";
+    hash = "sha256-"r20K4y48yIzXHN5sZxNQJhyk8CcYxmqyhO3up4PATpg=";
   };
 
   # note that `package.json` locks the electron version, but we seem to not be strictly beholden to that.
